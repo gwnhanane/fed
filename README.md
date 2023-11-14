@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
- HHanane Pengel
+ Hanane Pengel
 
   #### Je startniveau:
  blauw
@@ -44,7 +44,7 @@ responsive
 
   #### Screenshot(s) van de tweede pagina (small screen):
   detailpagina 
-  <img src="readme-images/oorbel.jpeg" width="375px" alt="pagina van diamanten oorbel>
+  <img src="readme-images/oorbel.jpeg" width="375px" alt="pagina van diamanten oorbel">
  
 </details>
 
