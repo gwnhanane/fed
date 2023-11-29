@@ -1,23 +1,59 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
-
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
+
 }
+
+
+
+
+/* VOORPAGINA?*/
+/*HEADER*/
+header {
+/*styling*/
+background-color: aqua;
+
+	/*functie*/
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+}
+/* DE RECHTERKANT VAN DE HEADER*/
+ul:nth-of-type(1) {
+	display: flex;
+}
+
+
+
+
+/* NAV OPEN*/
+nav {
+	background-color: bisque;
+	position: fixed;
+	inset: 0;
+	translate: 0% 100%;
+}
+
+.voorbody li {
+	list-style-type: none;
+
+}
+
+
 
 
 
@@ -26,6 +62,3 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-
-/* jouw code */
-
