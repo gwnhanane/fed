@@ -23,3 +23,34 @@ function closemenufunction() {
     document.querySelector("nav").classList.remove("toonMenu");
 }
 
+/*--------------------------------------------------------------------------------------------*/
+/*carousel*/
+document.addEventListener("DOMContentLoaded", function () {
+    const carousel = document.querySelector('.carousel');
+    let currentIndex = 0;
+  
+    function showSlide(index) {
+      const slideWidth = document.querySelector('.carousel img').clientWidth;
+      carousel.style.transform = `translateX(${-index * slideWidth}px)`;
+    }
+  
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % carousel.children.length;
+      showSlide(currentIndex);
+    }
+  
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + carousel.children.length) % carousel.children.length;
+      showSlide(currentIndex);
+    }
+  
+    setInterval(nextSlide, 3000); // Automatic slide transition every 3 seconds
+  });
+
+/*-------------------------------------------------*/
+/*-------------------------detail--------------------*/
+/*dropdown*/
+function toggleDropdown() {
+  var dropdownContent = document.getElementById("dropdownContent");
+  dropdownContent.style.display = (dropdownContent.style.display === "block") ? "none" : "block";
+}

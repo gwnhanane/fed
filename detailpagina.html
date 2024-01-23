@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>detailpagina</title>
+	<link rel="stylesheet" href="https://use.typekit.net/ecw2inb.css">
+
+	<link href="styles/styles.css" rel="stylesheet">
+	<!--VRAAG HOE DIT MOET JE KRIJGT NIET HET JUISTE FONT
+		<link rel="stylesheet" href="https://use.typekit.net/ecw2inb.css">-->
+
+</head>
+
+<body class="detailbody">
+	<header>
+		<section class="headerblok">
+			<section>
+				<h2>Menu icoon</h2>
+				<button aria-label="menubutton"><img src="./images/menu.png" alt=""></button>
+				<a href="index.html"><img src="./images/clair.png" alt=""></a>
+			</section>
+			<section>
+				<h2>menu lijst</h2>
+				<ul>
+					<li><a href="index.html"><img src="./images/pop.png" alt=""></a></li>
+					<li><a href="index.html"><img src="./images/pin.png" alt=""></a></li>
+					<li><a href="index.html"><img src="./images/club.png" alt=""></a></li>
+					<li><a href="index.html"><img src="./images/tas.png" alt=""></a></li>
+				</ul>
+			</section>
+		</section>
+
+		<section>
+			<h2>zoekbalk</h2>
+			<input type="text" placeholder="Search..">
+		</section>
+
+		<section>
+			<h2>Openingstijden</h2>
+			<p>Your Store: <span>(Open 12:00 - 18.00)</span></p>
+			<a href="#">Amsterdam - Nieuwendijk, Amsterdam</a>
+		</section>
+		<!--------------------------------------------------------------------------->
+		<!--HIDDEN-->
+		<nav>
+			<button aria-hidden="false"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg"
+					alt="kruisje" />Close</button>
+			<ul>
+				<li><a href="#">Cyber Monday</a></li>
+				<li><a href="#">Christmas</a></li>
+				<li><a href="./detailpagina.html">Earrings</a></li>
+				<li><a href="#">Home</a></li>
+			</ul>
+		</nav>
+        <!--------------------------------------------------------------------------->
+        <!--Detailpagina - header > 4 section-->
+        <section>
+            <h2>Home, Jewellery and Earings</h2>
+            <a href="./index.html">Home</a> &gt;
+            <a href="#">Jewellery</a> &gt;
+            <span>Earrings</span>
+        </section>
+		<!--------------------------------------------------------------------------->
+	</header>
+
+<main>
+    <section>
+        <h2>New Arrivals</h2>
+        <p>1 - 60 of 382 products</p>
+    </section>
+
+    <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">Filter</button>
+        <div class="dropdown-content" id="dropdownContent">
+          <ul>
+            <li><a href="#">Recommanded</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Price (Low to High)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn" onclick="toggleDropdown()">Sort by</button>
+        <div class="dropdown-content" id="dropdownContent">
+          <ul>
+            <li><a href="#">Recommanded</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Price (Low to High)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--main > 2e section-->
+      <section class="box-oorbel">
+        <h2>grote-box</h2>
+      <section>
+        <!--main > 2e section > 1 section-->
+        <h2>mini-box</h2>
+        <img src="./images/ketting.png" alt="oorbel">
+        <p>Sterling Silver Cubic Zirconia Round Stud Earrings - 3MM, 4MM, 5MM</p>
+        <p>€11,49</p>
+        <a href="#">ADD TO THE BAG</a>
+      </section>
+      <section>
+        <h2>mini-box</h2>
+        <img src="./images/ketting.png" alt="oorbel">
+        <p>Sterling Silver Cubic Zirconia Round Stud Earrings - 3MM, 4MM, 5MM</p>
+        <p>€11,49</p>
+        <a href="#">ADD TO THE BAG</a>
+      </section>
+      </section>
+
+      <section class="box-oorbel">
+        <h2>grote-box</h2>
+      <section>
+        <!--main > 2e section > 1 section-->
+        <h2>mini-box</h2>
+        <img src="./images/ketting.png" alt="oorbel">
+        <p>Sterling Silver Cubic Zirconia Round Stud Earrings - 3MM, 4MM, 5MM</p>
+        <p>€11,49</p>
+        <a href="#">ADD TO THE BAG</a>
+      </section>
+      <section>
+        <h2>mini-box</h2>
+        <img src="./images/ketting.png" alt="oorbel">
+        <p>Sterling Silver Cubic Zirconia Round Stud Earrings - 3MM, 4MM, 5MM</p>
+        <p>€11,49</p>
+        <a href="#">ADD TO THE BAG</a>
+      </section>
+      </section>
+</main>
+
+<footer>
+    <h2>Footerbox</h2>
+    <section>
+        <h2>Footer</h2>
+        <p>plus so much more!</p>
+        <a href="#">I WANT IN</a>
+        <p>*Exclusion apply - see email for full list. Offer is valid for full price purchases only and cannot
+            be combined.</p>
+        <p>Connect With Us</p>
+        <section>
+            <h2>social media</h2>
+            <img src="./images/twitter.png" alt="twitter">
+            <img src="./images/facebook.png" alt="facebook">
+            <img src="./images/youtube.png" alt="youtube">
+        </section>
+        
+    </section>
+</footer>
+    <script defer src="scripts/script.js"></script>
+</body>
+</html>
