@@ -566,6 +566,10 @@ main>section:nth-child(5)>p {
 /*H2*/
 .voorbody>main>section:nth-child(9)>h2 {
 	color: #02B058;
+	font-size: 0.2em;
+	margin: 0;
+	padding: 0;
+	visibility: hidden;
 }
 
 .voorbody>main>section:nth-child(10)>section {
@@ -1032,7 +1036,9 @@ header>section:nth-of-type(4) >h2 {
 
 /*-------------------------------------------------*/
 /*new arrivels*/
-
+.detailbody> main>section:nth-of-type(1){
+color: #553D94;
+}
 
 
 /*-------------------------------------------------*/

@@ -231,6 +231,164 @@ responsive
 
   1. bron 1
   2. bron 2
-  3. ...
+  3. ...week 1:
+Ik heb alles verwijderd behalve het menu.
+Het menu heb ik gemaakt dmv de huiswerk opdracht.
+
+Vervolgens heb ik alle plaatjes in Photoshop dezelfde afmeting gegeven zodat de plaatjes al goed staan.
+
+De plaatjes in de ul heb ik in een display flex gedaan en een 0.5 gap erbij.
+
+
+week 2
+Ik heb de een sectiongen gemaakt en toen de klas .groen gegeven, omdat ik het zonder class doe en gewoon met main sectionnth child doe dan gaan de blokjes (de twee section in de grote section ) niet naast elkaar.
+Ik heb nog een section gemaakt en daarin stond in de tekst 1 woordje rood dus heb ik dat woordje tussen een span gezet
+
+Plaatjes een passende alt naam gegeven.
+
+Ik heb een grid op de class doosjes gezet, omdat de plekken van de doosjes in de section gaan veranderen wanneer het scherm groter wordt. Dit heb ik gedaan dmv:////////////////////////////////////////////schijf iets//////////////////////////////////////////////]
+
+
+week 3:
+Ik was vergeten om overal een heading te zetten in de sections, dit heb ik gedaan en elke heading onzichtbaar gemaakt en in de section bovenop de elementen te zetten dmv: 
+visibility hidden. Ook heb ik de de margin en padding op 0 gezet zodat er niet onnodige ruimte bijkomt zie voorbeeld: header > section:nth-child(2) > h2{
+    visibility: hidden;
+    padding: 0;
+    margin: 0;
+}
+soms heb ik de top-margin omhoog gedaan zodat het niet in de weg zit dmv: - margin te doen..voorbody main>section:nth-child(2) > h2 {
+    visibility: hidden;
+    padding: 0;
+    margin-top: -1.5em; /*zorgt dat de h2 minder ruimte inneemt*/
+
+
+ik gebruikte heel vaak een specefieke kleur rood en heb het een naam gegeven door het in een variable te zetten genaamt xmasrood. zie:
+
+
+:root {
+    --xmasrood: rgb(236, 26, 65);
+  }
+
+
+ik heb deze techniek bij alles gebruikt .
+dus ik heb alle sections met een heading gemaakt en vanuit daar ben ik gaan kijken hoeveel het naar boven moet schuiven en vervolgens ontzichtbaar moet maken, zodat als de screenreader de tekst leest de tekst niet op een rare plek staat maar gewoon boven het zichtbare blok.
+–
+ik heb alles arial gemaakt dmv: body *{
+    font-family: arial;
+}
+
+
+
+
+nu hoef ik alleen als er een andere font gebruikt word dat font te gebruiken.
+
+grid heb ik gemaakt dmv:
+
+er zijn in totaal 6 rijen, deze rijen zijn opgesplitst in 2, en een tussen ruimte 0,5 em de text staat in het midden;
+.mickey {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 0.5em;
+    font-family: arial;
+    text-align: center;
+de rest is styling van het rechthoek:
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: #FEFEFE;
+    border: 2px solid var(--xmasrood);
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+rij 1 is dat niet dus laat je volledige breedte innemen; grid-column: span 2;
+het is de eerste rij: grid-row: 1;
+.mickey>h2 {
+    grid-column: span 2;
+    /* Neem de volledige breedte in beslag */
+    grid-row: 1;
+margin-top: -1.5em;
+    color: #02B058;
+    visibility: hidden;
+}
+
+
+eerste kolom van de 2e rij styling:
+.mickey>p:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+    font-size: 0.8em;
+
+
+}
+
+
+
+
+Banner:
+Ik heb eerst de tekst in li gedaan en ul.
+styling aangeven:
+.voorbody > main > ul 
+    color: white;
+    list-style: none;
+    padding: 0;
+vervolgens:
+in een blokje gedaan zodat de text naast elkaar staat:
+.voorbody > main > ul > li 
+    display: inline-block;
+    margin-right: 10px;
+
+Carousel:
+gemaakt met uitleg van verschillende youtube video's.
+Hiervoor heb ik een class gemaakt carousel in javascript een variabele aangemaakt current index die aangeeft welke huidige carousel te zien is. 
+De h2 wordt zoals normaal verborgen.
+Met de current Index functie word er binnen de carousel class de plaatjes weergeven
+met show Slide wordt er hierbinnen de plaatjes naar links en rechts kunnen verplaatsen.     
+
+
+header over de carousel:
+de header ging niet over de carousel dus ik heb gekeken waarom de plaatjes van de carousel niet achter de header staan. En vervolgens achter gekomen dat ik z- index sticky 100 moet gebruiken.
+
+footer:
+aangemaakt en achtergrondkleur gegeven.
+detailpagina:
+Ik heb een nieuwe pagina aangemaakt.
+
+kruimelpad:
+gemaakt door pagina's links op de website te zetten en wanneer het actief is een lijntje eronder.
+
+
+
+filter:
+Ik heb een box gemaakt en met javascript een toggle aangemaakt wanneer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </details>
