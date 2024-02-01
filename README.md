@@ -40,11 +40,12 @@ responsive
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   productpagina
-  <img src="readme-images/producten.jpeg" width="375px" alt="pagina waar alle producten van de catogorie oorbel in bevinden">
+  <img src="readme-images/breakdownclair.jpg" width="375px" alt="pagina waar alle producten op staan">
+  Er staan veel plaatjes met tekst in verwerkt waardoor de leesbaarheid niet hoog legt.
 
   #### Screenshot(s) van de tweede pagina (small screen):
   detailpagina 
-  <img src="readme-images/oorbel.jpeg" width="375px" alt="pagina van diamanten oorbel">
+  <img src="readme-images/breakdownoorbel.jpg" width="375px" alt="pagina van  oorbellen">
  
 </details>
 
@@ -56,7 +57,9 @@ responsive
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  In de eerste week heb ik de header gemaakt door allemaal plaatjes te plaatsen dit heb ik gedaan door de plaatjes van het menu aan de zijkant in een dubbele section te plaatsen en daarop een display flex te zetten zodat naast elkaar staan i.p.v. onderelkaar. 
+    <img src="readme-images/header.png" width="375px" alt="header">
+
 
 </details>
 
@@ -246,7 +249,7 @@ Ik heb nog een section gemaakt en daarin stond in de tekst 1 woordje rood dus he
 
 Plaatjes een passende alt naam gegeven.
 
-Ik heb een grid op de class doosjes gezet, omdat de plekken van de doosjes in de section gaan veranderen wanneer het scherm groter wordt. Dit heb ik gedaan dmv:////////////////////////////////////////////schijf iets//////////////////////////////////////////////]
+Ik heb een grid op de class doosjes gezet, omdat de plekken van de doosjes in de section gaan veranderen wanneer het scherm groter wordt. 
 
 
 week 3:

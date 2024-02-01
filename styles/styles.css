@@ -17,6 +17,13 @@ body * {
 
 
 /*-------------------------------------------------
+/*H1 pagina titel*/
+.voorbody h1{
+font-size: 0.8em;
+margin:0;
+visibility: hidden;
+}
+
 /*HEADER*/
 /*styling*/
 header {
@@ -131,6 +138,7 @@ header section:nth-child(3) a {
 	visibility: hidden;
 	padding: 0;
 	margin: 0;
+	font-size: 0.5em;
 }
 
 /*HELE MAIN*/
@@ -597,7 +605,6 @@ main>section:nth-child(5)>p {
 	margin-bottom: 2em;
 
 }
-
 /*H2*/
 .voorbody>main>section:nth-child(10)>h2 {
 	color: #02B058;
@@ -1005,6 +1012,12 @@ footer>section>section>h2 {
 
 /*---------------------------------DETAILPAGINA--------------------------*/
 /*-------------------------------------------------*/
+/*H1 pagina titel*/
+.detailbody h1{
+	font-size: 0.8em;
+	margin:0;
+	visibility: hidden;
+	}
 /*breadcrums*/
 header>section:nth-of-type(4) {
 	font-size: 0.8em;
